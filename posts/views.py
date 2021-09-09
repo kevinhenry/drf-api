@@ -1,4 +1,4 @@
-from rest_framework import generics, serializers
+from rest_framework import generics
 from .serializers import PlogSerializer
 from .models import Plog
 
