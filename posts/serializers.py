@@ -3,5 +3,5 @@ from .models import Plog
 
 class PlogSerializer(serializers.ModelSerializer):
     class Meta:
-        fields = ('id', 'author', 'header', 'note', 'created_at', 'update_at')
+        fields = ('id', 'author', 'headline', 'distance', 'note', 'created_at', 'update_at')
         model = Plog
