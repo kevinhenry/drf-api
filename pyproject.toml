@@ -8,6 +8,7 @@ authors = ["Kevin Henry <kevinhenry@mac.com>"]
 python = "^3.9"
 Django = "^3.2.7"
 djangorestframework = "^3.12.4"
+django-environ = "^0.6.0"
 
 [tool.poetry.dev-dependencies]
 
